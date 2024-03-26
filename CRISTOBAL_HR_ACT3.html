@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HR LOG IN</title>
+</head>
+<body>
+    <header>
+        <div class="containers">ELLUX</div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login">
+                <h1>Sign in</h1>
+                <hr>
+                    <div class="signin">
+                        <form>
+                            <h2>Department</h2>
+                                <select id="dropdown" required>
+                                    <option value="">Please select your department</option>
+                                    <option value="hr">HR</option>
+                                    <option value="scm">SCM</option>
+                                    <option value="pay">PAY</option>
+                                    <option value="mkt">MKT</option>
+                                    <option value="act">ACT</option>
+                                  </select>
+                            <p>*required</p>
+                            <h3>Email or Username *</h3>
+                                <input id ="user" type="text"required>
+                            <h3>Password *</h3>
+                                <input id ="pass" type="password" required>
+                            <div class="lower">
+                                <div class="remember"><input id="check" type="checkbox"><label for="check">Remember me?</label></div>
+                                <a href="">Forgot Password?</a>
+                            </div>
+                            <a href=""><button class="signButton">Sign in</button></a>
+                            <div class="buttonclass">
+                                <hr>
+                                <button><i class="fa-solid fa-phone"></i> Sign in with Contact Number</button>
+                                <button><i class="fa-brands fa-facebook"></i> Sign in with Facebook</button>
+                                <button><i class="fa-brands fa-github"></i> Sign in with GitHub</button>
+                                <button><i class="fa-solid fa-envelope"></i> Sign in with Gmail</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
